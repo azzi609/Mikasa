@@ -1,4 +1,4 @@
-### @CinderellaProBot // http://www.telegram.dog/CinderellaProBot
+### @M A R V I N // http://www.telegram.dog/mr_marvinbot
 > with HunterxHunter theme.
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)  
@@ -7,24 +7,24 @@
 Modular Telegram bot for managing your groups with a extras features with HunterxHunter theme.
 
 <p align="center">
-  <a href="https://github.com/Sur-vivor/CinderellaProBot/fork">
-    <img src="https://img.shields.io/github/forks/Sur-vivor/CinderellaProBot?label=Fork&style=social">
+  <a href="https://github.com/jerinjohny-ktnm/MarvinBot/fork">
+    <img src="https://img.shields.io/github/forks/jerinjohny-ktnm/MarvinBot?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/Sur-vivor/CinderellaProBot">
-    <img src="https://img.shields.io/github/stars/Sur-vivor/CinderellaProBot?style=social">
+  <a href="https://github.com/jerinjohny-ktnm/MarvinBot">
+    <img src="https://img.shields.io/github/stars/jerinjohny-ktnm/MarvinBot?style=social">
   </a>
 </p>
 
 ### Click Below Image to Deploy
-[![Deploy](https://telegra.ph/file/511ad504656e712b88235.jpg)](https://heroku.com/deploy?template=https://github.com/Sur-vivor/CinderellaProBot.git)
+[![Deploy](https://telegra.ph/file/636290f4a3788371eec0b.jpg)](https://heroku.com/deploy?template=https://github.com/Sur-vivor/CinderellaProBot.git)
 
 ### Configuration
 
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
 The prefered version is to use a `config.py` file, as it makes it easier to see all your settings grouped together.
-This file should be placed in your `cinderella` folder, alongside the `__main__.py` file . 
+This file should be placed in your `marvin` folder, alongside the `__main__.py` file . 
 This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of 
 your other settings.
 
@@ -33,12 +33,12 @@ defaults set in the sample_config, hence making it easier to upgrade.
 
 An example `config.py` file could be:
 ```
-from cinderella.sample_config import Config
+from marvin.sample_config import Config
 
 
 class Development(Config):
-    OWNER_ID = 1118936839  # my telegram ID
-    OWNER_USERNAME = "Sur_vivor"  # my telegram username
+    OWNER_ID = 1329457821  # my telegram ID
+    OWNER_USERNAME = "@imjerin"  # my telegram username
     API_KEY = "your bot api key"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
