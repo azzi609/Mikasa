@@ -11,7 +11,7 @@ from cinderella import dispatcher
 def define(bot: Bot, update: Update, args):
     msg = update.effective_message
     word = " ".join(args)
-    res = requests.get(f"https://googledictionaryapi.eu-gb.mybluemix.net/?define={word}")
+    res = requests.get(f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}")
     if res.status_code == 200:
         info = res.json()[0].get("meaning")
         if info:
