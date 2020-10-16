@@ -41,7 +41,6 @@ the things I can help you with.
  💠 - /start: start the bot
  💠 - /help: PM's you this message.
  💠 - /help <module name>: PM's you info about that module.
- 💠 - /source: Information about my source.
  💠 - /settings:
    🔹 - in PM: will send you your settings for all supported modules.
    🔹 - in a group: will redirect you to pm, with all that chat's settings.
@@ -56,11 +55,6 @@ VERSION = "6.0"
 def vercheck() -> str:
     return str(VERSION)
 
-
-SOURCE_STRING = """
-⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://github.com/jerinjohny-ktnm/MarvinBot)
-⚡You Can Clone Me [Here](https://heroku.com/deploy?template=https://github.com/jerinjohny-ktnm/MarvinBot.git)
-"""
 
 
 IMPORTED = {}
